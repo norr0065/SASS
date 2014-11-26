@@ -16,7 +16,7 @@ fieldset, pre, table {
 }
 
 html {
-    font: normal 100%/1.5 "Oswald" sans-serif;
+    font: normal 100%/1.5 'Lato', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -28,12 +28,12 @@ fieldset, pre, table {
 
 h1, h2, h3, h4, h5, h6,
 .brand-family {
-    font-family: "PT Sans Narrow" sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 p, figcaption, dd, dt, a, label, button,
 .brand-family {
-    font-family: "PT Sans Narrow" sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 html {
@@ -118,6 +118,7 @@ a:focus {
 img {
   display: block;
   width: 100%;
+    padding:0;
 }
 
 .banner{
@@ -126,27 +127,27 @@ img {
 }
 
 .logo {
-    display:block;
-    width: 14em;
-    margin: 1.5em;
+    display: block;
+    width: 19em;
+    margin: .5em;
 }
 
 .billboard {
-    padding-top: 6em;
-    background-image: url(../images/ipad1.jpg);
+    padding-top: 3em;
+    background-image: url(../images/jpeg45.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover; 
     height: 500px;
 }
 
-h1{
+    
+h1 {
     text-align: left;
     text-transform: none;
     overflow:hidden;
     display: block;
     width:100%;
-    margin: 10em; 
 }
 
 .whitetype {
@@ -158,13 +159,13 @@ h1{
 }
 
 .nav {
-    padding: 0;
     list-style-type: none;
     background-color: #FFE500;
+    padding: 1px;
 }
 
 .nav a {
-    display: block;
+    display: inherit;
     text-decoration: none;
 }
 
@@ -221,8 +222,9 @@ button{
 
 
 @media only screen and (min-width: 20em) {
-    
-      .nav li {
+
+    }
+      .nav li{
         display: inline-block;
     }
     
