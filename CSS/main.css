@@ -114,8 +114,7 @@ a:focus {
 .sectionmedium {
     background-color: #975ED4;
 }
-
-
+    
 img {
   display: block;
   width: 100%;
@@ -123,20 +122,31 @@ img {
 
 .banner{
     overflow: hidden;
-    background-color: white;
+    background-color: #FFE500;
 }
 
-.intro {
-    background-color: white;
-    text-align: center;
-    margin:0;
-    padding:0;
+.logo {
+    display:block;
+    width: 14em;
+    margin: 1.5em;
+}
+
+.billboard {
+    padding-top: 6em;
+    background-image: url(../images/ipad1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; 
+    height: 500px;
 }
 
 h1{
-    text-align: center;
-    margin: 0;
-    padding: 0;
+    text-align: left;
+    text-transform: none;
+    overflow:hidden;
+    display: block;
+    width:100%;
+    margin: 10em; 
 }
 
 .whitetype {
