@@ -116,9 +116,9 @@ a:focus {
 }
     
 img {
-  display: block;
-  width: 100%;
-    padding:0;
+    display: block;
+    width: 100%;
+    padding-left: 3em;
 }
 
 .banner{
@@ -131,7 +131,7 @@ img {
     width: 19em;
     margin: .5em;
 }
-
+        
 .billboard {
     padding-top: 3em;
     background-image: url(../images/jpeg45.jpg);
@@ -176,6 +176,14 @@ h1 {
     border-style: dashed;
     border-width: 2.5px;
 }
+
+h3 {
+    margin:0;
+}
+.solution {
+ background-image:url(../images/05.jpg);
+}
+
     
 label{
     display:block;
@@ -224,6 +232,11 @@ button{
 @media only screen and (min-width: 20em) {
 
     }
+    .logo{
+    left: 0px;
+    width: 19em;
+    }
+    
       .nav li{
         display: inline-block;
     }
