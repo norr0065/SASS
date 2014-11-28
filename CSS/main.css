@@ -134,7 +134,7 @@ img {
 .billboard {
     position: relative;
     padding-top: 3em;
-    background-image: url(../images/jpeg45.jpg);
+    background-image: url(../images/bannerimage.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover; 
@@ -203,7 +203,7 @@ h3 {
 }
 
 .solution {
- background-image:url(../images/05.jpg);
+ background-image:url(../images/yellowbackground.jpg);
 }
 
     
@@ -266,8 +266,6 @@ button{
 .footer li:last-child a::after {
     content: none;
 }
-
-
 
 footer {
     background-color: #FFE500;
