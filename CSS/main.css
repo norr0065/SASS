@@ -216,6 +216,7 @@ h4 {
 .solution {
     background-image:url(../images/yellowbackground.jpg);
     padding:1em;
+    text-align: center;
 }
 
 input + label{
