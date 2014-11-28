@@ -172,7 +172,6 @@ h1 {
     text-decoration: none;
     border-color: #FFE500;
     color: #FFE500;
-    border-style: dashed;
     border-width: 2.5px;
 }
 
@@ -224,15 +223,6 @@ input + label{
     display:inline-block;
 }
 
-button{
-    height:30px;
-    width:100px;
-    margin: -20px -50px;
-    position:relative;
-    top: 50%;
-    left:50%;
-}
-
 .offering {
     height: 100%;
     width: 100%;
@@ -280,7 +270,7 @@ button{
 
 .footer {
     width: 100%;
-    background-color: 
+    background-color: #FFE500;
 }
 
 .footer ul a::after {
@@ -290,15 +280,6 @@ button{
 .footer li:last-child a::after {
     content: none;
 }
-
-footer {
-    background-color: #FFE500;
-}
-
-footer p {
-    color: white;
-}
-
 
 @media only screen and (min-width: 20em) {
 
