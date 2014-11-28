@@ -118,7 +118,13 @@ a:focus {
 img {
     display: block;
     width: 100%;
-    padding-left: 3em;
+    margin: 0% auto;
+}
+
+figcaption {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
 }
 
 .banner{
@@ -147,6 +153,9 @@ h1 {
     overflow:hidden;
     display: block;
     width:100%;
+    font-family: 'Lato';
+    font-style: bold;
+    font-weight: 700;
 }
 
 .billboard a:hover {
@@ -203,9 +212,9 @@ h3 {
 }
 
 .solution {
- background-image:url(../images/yellowbackground.jpg);
+    background-image:url(../images/yellowbackground.jpg);
+    padding:1em;
 }
-
     
 label{
     display:block;
@@ -276,9 +285,6 @@ footer p {
 }
 
 
-
-
-
 @media only screen and (min-width: 20em) {
 
     }
@@ -335,4 +341,3 @@ footer p {
         padding:0;
     }
 }
-
