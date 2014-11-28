@@ -110,10 +110,6 @@ a:focus {
 .sectionlight {
     background-color: white;
 }
-
-.sectionmedium {
-    background-color: #975ED4;
-}
     
 img {
     display: block;
@@ -154,8 +150,8 @@ h1 {
     display: block;
     width:100%;
     font-family: 'Lato';
-    font-style: bold;
-    font-weight: 700;
+    font-style: italic;
+    font-weight: 900;
 }
 
 .billboard a:hover {
@@ -209,6 +205,9 @@ h1 {
 
 h3 {
     margin:0;
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 900;
 }
 
 .solution {
@@ -242,6 +241,12 @@ button{
 .customers {
     background-color:#81CCD4;
     text-align: center;
+}
+
+.quote {
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 300;
 }
 
 .textbox{
