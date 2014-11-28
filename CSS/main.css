@@ -185,6 +185,7 @@ h1 {
 }
 
 .nav {
+    display:block;
     list-style-type: none;
     background-color: #FFE500;
     padding: 1px;
@@ -247,7 +248,16 @@ button{
     font-family: 'Lato';
     font-style: italic;
     font-weight: 300;
+    text-align: center;
 }
+
+.quotename {
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 300;
+    text-align: right;
+}
+
 
 .textbox{
     width:100%;
