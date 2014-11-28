@@ -249,8 +249,14 @@ button{
     white-space: nowrap;
 }
 
+.backtotop {
+    display: inline-block;
+    text-align: right;
+} 
+
 .footer {
     width: 100%;
+    background-color: 
 }
 
 .footer ul a::after {
@@ -260,6 +266,19 @@ button{
 .footer li:last-child a::after {
     content: none;
 }
+
+
+
+footer {
+    background-color: #FFE500;
+}
+
+footer p {
+    color: white;
+}
+
+
+
 
 
 @media only screen and (min-width: 20em) {
