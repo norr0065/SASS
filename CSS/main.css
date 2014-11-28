@@ -113,10 +113,11 @@ img {
     margin: 0% auto;
 }
 
-figcaption {
+.figcaption{
     font-family: 'Lato';
     font-style: normal;
     font-weight: 700;
+    color: #FFE500;
 }
 
 .banner{
@@ -126,7 +127,7 @@ figcaption {
 
 .logo {
     display: block;
-    width: 19em;
+    width: 80%;
 }
         
 h1 {
@@ -205,7 +206,7 @@ h1 {
     border-width: 2.5px;
 }
 
-h3 {
+h4 {
     margin:0;
     font-family: 'Lato';
     font-style: italic;
@@ -219,12 +220,6 @@ h3 {
 
 input + label{
     display:inline-block;
-}
-
-.offering {
-    height: 100%;
-    width: 100%;
-    align-content: center;
 }
 
 .customers {
@@ -280,12 +275,7 @@ input + label{
 
 @media only screen and (min-width: 20em) {
 
-    }
 
-.logo{
-    left: 0px;
-    width: 19em;
-    }
     
       .nav li{
         display: inline-block;
