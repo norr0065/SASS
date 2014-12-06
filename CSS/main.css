@@ -112,6 +112,13 @@ img {
     margin: 0% auto;
 }
 
+.parallax {
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../images/banner.jpg");
+}
+
 .figcaption{
     font-family: 'Lato';
     font-style: normal;
