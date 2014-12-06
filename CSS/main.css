@@ -264,6 +264,11 @@ h1 {
     text-align: center;
     display: block;
     color:#FFE500;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    text-align: center;
 }
 
 .pricingfooter{
