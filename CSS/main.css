@@ -223,14 +223,11 @@ h1 {
 
 .pricingheader {
     background: #81CCD4;
-    padding: 40px;
+    padding: 10px;
     -webkit-border-radius: 10px 10px 0 0;
     -moz-border-radius: 0px 10px 0 0;
     border-radius: 15px;
-    margin-bottom: 10px;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top: 0px;
+    margin:auto;
 }
 
 .pricingheadertitle{
