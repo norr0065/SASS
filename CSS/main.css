@@ -116,7 +116,7 @@ img {
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("../images/banner.jpg");
+  background-image: url(../images/bannerimage.jpg);
 }
 
 .figcaption{
@@ -187,13 +187,12 @@ h1 {
     background-position: center center;
     background-color: white;
     background-size: cover; 
-    height: 220px;
+    height: 180px;
 }
 
 .billboard.p:active {
     border-color:#FFE500;
 }
-
 
 .pricingh1 {
     text-align: center;
@@ -298,7 +297,6 @@ h1 {
     border-radius: 15px;
 }
     
-    
 .pricingfooter a:hover {
     color:#FFE500;
 }
@@ -393,7 +391,7 @@ input + label{
 }
 
 .customersp { 
-    background-color: white;
+    background-color:#81CCD4;
     text-align: left;
 }
 
@@ -416,8 +414,8 @@ input + label{
     font-style: italic;
     font-weight: 200;
     text-align: right;
-}
-    
+    color:#81CCD4;
+}    
 
 .textbox{
     width:100%;
@@ -452,8 +450,6 @@ input + label{
 }
 
 @media only screen and (min-width: 20em) {
-
-
     
       .nav li{
         display: inline-block;
