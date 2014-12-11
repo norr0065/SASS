@@ -216,6 +216,50 @@ h1 {
     font-weight: 700;
 }
 
+.billboards {
+    position: relative;
+    padding-top: 3em;
+    background-image: url(../images/ipad1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; 
+    height: 900px;
+}
+
+.billboard a:hover {
+    color:#FFE500;
+}
+  
+.billboard a:active {
+    border-color:#FFE500;
+}
+
+.signuph1 {
+    text-align: center;
+    text-transform: none;
+    overflow:hidden;
+    display: block;
+    width:100%;
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 900;
+    color: white;
+}
+
+.signuph2 {
+    text-align: center;
+    text-transform: none;
+    overflow:hidden;
+    display: block;
+    width:100%;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    color: white;
+}
+
+    
+    
 .pricingprimary {
     box-sizing: border-box;
     display: block;
