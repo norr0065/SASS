@@ -225,6 +225,7 @@ h1 {
     background-position: center center;
     background-size: cover; 
     height: 900px;
+    margin: 0 auto;
 }
 
 .billboard a:hover {
@@ -468,7 +469,6 @@ input + label{
     max-width: 40em;
     text-align: center;
 }
-
 
 .info {
     width: 100%;
