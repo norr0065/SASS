@@ -219,11 +219,12 @@ h1 {
 .billboards {
     position: relative;
     padding-top: 3em;
+    text-align: center;
     background-image: url(../images/ipad1.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover; 
-    height: 900px;
+    height: 600px;
 }
 
 .billboard a:hover {
@@ -257,9 +258,7 @@ h1 {
     font-weight: 700;
     color: white;
 }
-
-    
-    
+ 
 .pricingprimary {
     box-sizing: border-box;
     display: block;
@@ -459,7 +458,16 @@ input + label{
     font-weight: 200;
     text-align: right;
     color:#81CCD4;
-}    
+}   
+
+.form {
+    display:block;
+    margin: 0 auto;
+    color: black;
+    font-weight: 300;
+    max-width: 40em;
+    text-align: center;
+}
 
 .textbox{
     width:100%;
