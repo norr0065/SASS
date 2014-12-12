@@ -144,7 +144,7 @@ h1 {
 .billboard {
     position: relative;
     padding-top: 3em;
-    background-image: url(../images/bannerimage.jpg);
+    background-image: url(../images/bannerimagemot.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover; 
@@ -369,6 +369,10 @@ h1 {
 
 .yellowtype {
     color: #FFE500;
+}
+.boldtext {
+    font-weight: bold;
+    color: black;
 }
 
 .sectionlight {
