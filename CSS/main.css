@@ -137,8 +137,8 @@ h1 {
     display: block;
     width: 100%;
     font-family: 'Lato';
-    font-style: bold;
-    font-weight: 700;
+    font-style: italic;
+    font-weight: 900;
 }
 
 .billboard {
@@ -372,7 +372,10 @@ h1 {
 }
 .boldtext {
     font-weight: bold;
-    color: black;
+    color: white;
+    font-family: 'Lato';
+    font-style: bold;
+    font-weight: 700;
 }
 
 .sectionlight {

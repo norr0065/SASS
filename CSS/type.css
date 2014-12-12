@@ -10,37 +10,37 @@ fieldset, pre, table {
 }
 
 .yotta {
-  font-size: 2.2807rem;
+  font-size: 4rem;
   line-height: 1.3154;
 }
 
 .zetta {
-  font-size: 2.0273rem;
+  font-size: 3rem;
   line-height: 1.4798;
 }
 
 h1, .exa {
-  font-size: 1.8020rem;
+  font-size: 2.5rem;
   line-height: 1.6648;
 }
 
 h2, .peta {
-  font-size: 1.6018rem;
+  font-size: 1.75rem;
   line-height: 1.8729;
 }
 
 h3, .tera {
-  font-size: 1.4238rem;
+  font-size: 1.5rem;
   line-height: 1.0535;
 }
 
 h4, .giga {
-  font-size: 1.2656rem;
+  font-size: 1.25rem;
   line-height: 1.1852;
 }
 
 h5, .mega {
-  font-size: 1.1250rem;
+  font-size: 1.15rem;
   line-height: 1.3333;
 }
 
@@ -50,12 +50,12 @@ h6, .kilo {
 }
 
 small, .milli {
-  font-size: 0.8889rem;
+  font-size: 0.85rem;
   line-height: 1.6875;
 }
 
 .micro {
-  font-size: 0.7901rem;
+  font-size: 0.75rem;
   line-height: 1.8984;
 }
 
